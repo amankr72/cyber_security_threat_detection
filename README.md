@@ -1,14 +1,13 @@
 
+## Cyber Security Threat Detection
 
-## 🚀 Cyber Security Threat Detection
-
-### 📌 Project Overview
+###  Project Overview
 
 This project uses **Machine Learning with PyTorch** to detect suspicious cybersecurity events from system log data. The goal is to classify activities as **malicious or benign** based on extracted features.
 
 ---
 
-### 📂 Dataset
+###  Dataset
 
 * Labeled CSV files containing event attributes
 * Target column: **`sus_label`** (0 = normal, 1 = suspicious)
@@ -16,7 +15,7 @@ This project uses **Machine Learning with PyTorch** to detect suspicious cyberse
 
 ---
 
-### 🛠 Tech Stack
+###  Tech Stack
 
 * Python
 * PyTorch
@@ -25,7 +24,7 @@ This project uses **Machine Learning with PyTorch** to detect suspicious cyberse
 
 ---
 
-### ⚙️ Workflow
+###  Workflow
 
 1. Load and preprocess data
 2. Feature scaling using StandardScaler
@@ -35,7 +34,7 @@ This project uses **Machine Learning with PyTorch** to detect suspicious cyberse
 
 ---
 
-### 🧠 Model Architecture
+###  Model Architecture
 
 * Fully connected neural network
 * Two hidden layers (ReLU activation)
@@ -43,14 +42,14 @@ This project uses **Machine Learning with PyTorch** to detect suspicious cyberse
 
 ---
 
-### 📊 Results
+###  Results
 
 * High training accuracy
 * Low test accuracy → **possible overfitting / data imbalance**
 
 ---
 
-### 🔮 Future Improvements
+###  Future Improvements
 
 * Handle class imbalance
 * Feature engineering
@@ -59,7 +58,7 @@ This project uses **Machine Learning with PyTorch** to detect suspicious cyberse
 
 ---
 
-### ▶ How to Run
+###  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -68,6 +67,6 @@ jupyter notebook notebook.ipynb
 
 ---
 
-### 📜 License
+###  License
 
 Open-source for learning and research purposes.
