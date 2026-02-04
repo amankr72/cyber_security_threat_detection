@@ -1,6 +1,4 @@
-Below is a clean and professional **README.md** you can directly paste into your GitHub repo 👇
 
----
 
 ## 🚀 Cyber Security Threat Detection
 
